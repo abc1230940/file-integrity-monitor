@@ -132,11 +132,17 @@ The File Integrity Monitor is designed to use on the unix system, please make su
 <p> ❗Paste your <strong>Webhook URL</strong> from the clipboard you have done before</p>
 <p> 2. Launch the file integrity monitor script to begin monitoring </p>
 <pre> <code lang="bash">sudo python3 file_integrity_monitor.py</code> </pre>
-<p> 3. If the targeted port was closed or service was down, the following alert will be shown </p>
-<img width="845" height="62" alt="2 12" src="https://github.com/user-attachments/assets/9992c26f-5802-4c32-a91a-b2811bf76896" />
-<p> 4. And the alert is also sent to your webhook server, so you can be alerted immediately on your workstation</p>
-<img width="1103" height="125" alt="2 10" src="https://github.com/user-attachments/assets/50e20e1e-e0e1-4bc7-9511-0096cfaf5854" />
-<p> 5. The alerter is run automatically for every hour (3600 seconds) to keep checking the operation of your server</p>
+<img width="1118" height="133" alt="Screenshot 2026-05-23 161923" src="https://github.com/user-attachments/assets/912ecde6-c0f3-4193-87a6-c6860cf8106f" />
+<p> 3. If the attacker created a backdoor user on the system upon compromise
+<pre> <code lang="bash">useradd hacker</code> </pre>
+<pre> <code lang="bash">passwd hacker</code> </pre>
+<img width="408" height="26" alt="Screenshot 2026-05-23 164214" src="https://github.com/user-attachments/assets/e00c2fe1-9fb1-495c-9ca8-17f9d0c6e0a8" />
+<p> A backdoor user "hacker" wass added into /etc/passwd and /etc/shadow </p>
+<p> 4. The script detected the files were edited, the following alert will be shown </p>
+<img width="681" height="145" alt="Screenshot 2026-05-23 165801" src="https://github.com/user-attachments/assets/5339fa67-f81a-43c1-9dc0-7b518b60979d" />
+<p> 5. And the alert is also sent to your webhook server, so you can be alerted immediately on your workstation</p>
+<img width="553" height="138" alt="Screenshot 2026-05-23 165817" src="https://github.com/user-attachments/assets/0a22dee6-6f96-48bc-9e3a-ef7ad26518bd" />
+<p> 6. The monitor run automatically for every hour (3600 seconds) to keep checking file integrity </p>
 <p align="right">(<a href="#top">Back to Top</a>)</p>
 
 
