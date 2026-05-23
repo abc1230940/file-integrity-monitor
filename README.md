@@ -110,9 +110,9 @@ The File Integrity Monitor is designed to use on the unix system, please make su
 
 <h3 id="installation"> Installation </h3>
 <p> 1. Clone the Repo </p>
-<pre> <code lang="bash">git clone [https://github.com/abc1230940/web-server-port-alerter.git](https://github.com/abc1230940/file_integrity_monitor.git)</code> </pre>
+<pre> <code lang="bash">git clone https://github.com/abc1230940/file-integrity-monitor.git</code> </pre>
 <p> 2. Navigate into the folder </p>
-<pre> <code lang="bash">cd file_integrity_monitor</code> </pre> 
+<pre> <code lang="bash">cd file-integrity-monitor</code> </pre> 
 <p> 3. Set up the virtual environment </p>
 <pre> <code lang="bash">python3 -m venv env</code> </pre>
 <p> 4. Activate the virtual environment </p>
