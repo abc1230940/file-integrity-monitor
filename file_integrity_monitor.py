@@ -25,7 +25,7 @@ def check_integrity():
         if current_hash != initial_hash:
             alert_message = f"Alert! A Change has benn detected in {file}!" 
             print(alert_message)
-	    send_notification(alert_message)
+            send_notification(alert_message)
 
 def send_notification(message): 
     payload = {"content": message}
