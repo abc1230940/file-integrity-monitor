@@ -80,10 +80,10 @@ The File Integrity Monitor is designed to use on the unix system, please make su
 <h3 id="prerequisites"> Prerequisites </h3>
 <p> 1. System Update and Installation of Python </p>
 <pre> <code lang="bash"> sudo apt update && sudo apt install -y python3.12-venv </code> </pre>
-<p> 2. Configurating a Discord Webhook Server </p>
-<p> 2-1. Navigating to <a href="https://discord.com"> Discord </a> and Login </p>
+<p> 2. Configure a Discord Webhook Server </p>
+<p> 2-1. Navigate to <a href="https://discord.com"> Discord </a> and Login </p>
 <img width="1851" height="965" alt="2" src="https://github.com/user-attachments/assets/4ffcb751-461d-4d9d-bd9b-f5c570db63de" /><br>
-<p> 2-2. Add a Server</p>
+<p> 2-2. Scroll down the navbar on the left and press "Add a Server" </p>
 <img width="467" height="208" alt="2 0" src="https://github.com/user-attachments/assets/373f25c0-33a6-4195-b7ff-2d6040171e8c" /><br>
 <p> 2-3. Create Your Server</p>
 <p> choose "Create My Own" </p>
@@ -92,12 +92,12 @@ The File Integrity Monitor is designed to use on the unix system, please make su
 <p> choose "For me and my friends" </p>
 <img width="548" height="465" alt="2 2" src="https://github.com/user-attachments/assets/fc8fe3bc-c7be-47f6-915d-33f621b0f742" /><br>
 <p> 2-5. Customize Your Server </p>
-<p> Give a name to your server and i named "Port Scanning" </p>
+<p> Give a name to your server and i named "File Integrity Monitor" </p>
 <img width="552" height="517" alt="2 3" src="https://github.com/user-attachments/assets/2d3f9904-fa44-4d64-a971-2a2866700383" /><br>
 <p> 2-6. A server is installed </p>
 <p> Click the Gear icon next to # general </p>
 <img width="1503" height="821" alt="2 4" src="https://github.com/user-attachments/assets/8aeef7c3-6660-4663-9679-96c88d535915" /><br>
-<p> 2-7. Click "Overview" </p>
+<p> 2-7. Click "Integration" </p>
 <img width="322" height="293" alt="2 6" src="https://github.com/user-attachments/assets/9cbf5013-aa5a-4589-a794-bdf07ec93482" /><br>
 <p> 2-8. Click "Create Webhook" button </p>
 <img width="963" height="497" alt="2 7" src="https://github.com/user-attachments/assets/8696f10d-5717-45e7-9812-c900793bab44" /><br>
