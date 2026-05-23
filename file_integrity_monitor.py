@@ -23,7 +23,7 @@ def check_integrity():
             continue 
         current_hash = get_file_hash(file) 
         if current_hash != initial_hash:
-            alert_message = f"Alert! A Change has benn detected in {file}!" 
+            alert_message = f"Alert! A Change has been detected in {file}!" 
             print(alert_message)
             send_notification(alert_message)
 
