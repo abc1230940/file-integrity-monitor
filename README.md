@@ -58,7 +58,7 @@
 <h2 id="about-the-project"> About the Project </h2>
 <img width="681" height="145" alt="Screenshot 2026-05-23 165801" src="https://github.com/user-attachments/assets/937d330f-a8be-4a9b-957d-26f053f79862" />
 <p> When an enterprise Linux server is compromised, one of the immediate actions taken by the attacker is to create a backdoor user to achieve persistence. Once a new user is created, /etc/passwd and /etc/shadow (which contain all user information in the system) will be modified. </p>
-<p> This lightweight Python tool is designed to check the integrity of these sensitive files by comparing them with their initial SHA-256 hash values every hour. Alerts will be sent to a SOC Webhook server if discrepancies are detected, allowing incident responders to take immediate remediation action. </p
+<p> This lightweight Python tool is designed to check the integrity of these sensitive files by comparing them with their initial SHA-256 hash values every hour. Alerts will be sent to a SOC Webhook server if discrepancies are detected, allowing incident responders to take immediate remediation action. </p>
 <p align="right">(<a href="#top">Back to Top</a>)</p>
 
 
